@@ -1,2 +1,1 @@
-# newGitTest
-# Hello  World
+# A restaurant website built using HTML, CSS, and Javascript. 
