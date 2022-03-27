@@ -2528,6 +2528,8 @@ input, select, textarea {
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
+		display: flex;
+		justify-content: center;
 	}
 
 		#banner .inner {
@@ -2541,9 +2543,9 @@ input, select, textarea {
 			animation-fill-mode: forwards;
 			background: rgba(16, 80, 37, 0.37);
 			color: #fff;
-			display: inline-block;
 			opacity: 0;
 			padding: 3em;
+			width: 50%;
 			text-align: center;
 		}
 
@@ -3258,13 +3260,12 @@ input, select, textarea {
 
 			#banner {
 				/* background-size: 10em, 10em, auto, cover; */
-				padding: 6em 0;
+				padding: 1.5em 0;
 			}
 
 				#banner .inner {
-					background: none;
-					display: block;
-					padding: 0 1.5em;
+					padding: 1.5em;
+					width: 75%;
 				}
 
 					#banner .inner header h2 {
