@@ -77,7 +77,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: linear-gradient(#2d3136, #3fb17c, #2d3136);
+		background: linear-gradient(#222923, #084612, #222923);
 	}
 
 		body#is-preload *, body#is-preload *:before, body#is-preload *:after {
@@ -313,6 +313,9 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 
 		.row > .off-4 {
@@ -2206,7 +2209,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #131a15;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2219,7 +2222,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="reset"]:hover,
 			.wrapper.style2 button:hover,
 			.wrapper.style2 .button:hover {
-				background: rgba(255, 255, 255, 0.15) !important;
+				background: rgba(255, 255, 255, 0.15);
 			}
 
 			.wrapper.style2 input[type="button"].primary,
@@ -2229,7 +2232,7 @@ input, select, textarea {
 			.wrapper.style2 .button.primary {
 				background: #fff;
 				border-color: #fff;
-				color: #83d3c9 !important;
+				color: #83d3c9;
 			}
 
 				.wrapper.style2 input[type="button"].primary:hover,
@@ -2237,8 +2240,8 @@ input, select, textarea {
 				.wrapper.style2 input[type="reset"].primary:hover,
 				.wrapper.style2 button.primary:hover,
 				.wrapper.style2 .button.primary:hover {
-					border-color: inherit !important;
-					color: #fff !important;
+					border-color: inherit;
+					color: #fff;
 				}
 
 		.wrapper.style3 {
@@ -2295,8 +2298,8 @@ input, select, textarea {
 	}
 
 	#header {
-		background: #fff;
-		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
+		background: rgb(0, 0, 0);
+		box-shadow: 0 1px 2px 0 rgba(82, 82, 82, 0.075);
 		color: inherit;
 		cursor: default;
 		font-size: 0.8em;
@@ -2519,7 +2522,6 @@ input, select, textarea {
 	}
 
 	#banner {
-		background-color: #645862;
 		background-image: url("images/pexels-frans-van-heerden-670705.jpg");
 		background-repeat: no-repeat;
 		background-position: center;
@@ -2615,6 +2617,21 @@ input, select, textarea {
 
 	body.index #main {
 		padding-top: 5em;
+	}
+/* Story */
+	.story .col-8 {
+		display: flex;
+		flex-flow: column;
+		
+	}
+	.story h2 {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	.story img {
+		width: auto;
+		height: 600px; 
+		
 	}
 
 /* CTA */
@@ -2746,7 +2763,12 @@ input, select, textarea {
 			#footer {
 				padding: 4em;
 			}
-
+		/* story */
+			.story img {
+				width: 85%;
+				height: auto;
+				
+			}
 	}
 
 /* Narrow */
