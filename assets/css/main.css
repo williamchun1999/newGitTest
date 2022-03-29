@@ -174,14 +174,18 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: 100%;
 		width: 1400px;
+		max-width: 100%;
+		
 	}
 
 		.container.medium {
 			width: 1050px;
 		}
-
+	.wide-container {
+		max-width:100%;
+		background-color: black;
+	}
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -244,11 +248,19 @@ input, select, textarea {
 
 /* Row */
 
+	.test {
+		display: flex;
+		flex-flow: column;
+		
+	}
+	.test img {
+		width: 50%;
+	}
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 		.row > * {
@@ -3318,7 +3330,12 @@ input, select, textarea {
 			body.contact #main {
 				padding-bottom: 0;
 			}
-
+		/* Photo Display */
+		.photoDisplay {
+			display: flex;
+			justify-content: space-evenly;
+			flex-flow: row nowrap;
+		}
 		/* CTA */
 
 			#cta {
