@@ -2370,7 +2370,7 @@ input, select, textarea {
 						-webkit-transition: all 0.2s ease-in-out;
 						-ms-transition: all 0.2s ease-in-out;
 						transition: all 0.2s ease-in-out;
-						background: rgba#9CC5A1;
+						background:#9CC5A1;
 					}
 
 					#header nav ul li.current > a {
