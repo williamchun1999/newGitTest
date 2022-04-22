@@ -2342,29 +2342,7 @@ input, select, textarea {
 						min-width: 0;
 						width: auto;
 					}
-
-					#header nav ul li.submenu > a {
-						text-decoration: none;
-					}
-
-						#header nav ul li.submenu > a:before {
-							-moz-osx-font-smoothing: grayscale;
-							-webkit-font-smoothing: antialiased;
-							display: inline-block;
-							font-style: normal;
-							font-variant: normal;
-							text-rendering: auto;
-							line-height: 1;
-							text-transform: none !important;
-							font-family: 'Font Awesome 5 Free';
-							font-weight: 900;
-						}
-
-						#header nav ul li.submenu > a:before {
-							content: '\f107';
-							margin-right: 0.65em;
-						}
-
+					
 					#header nav ul li.active > a, #header nav ul li:hover > a {
 						-moz-transition: all 0.2s ease-in-out;
 						-webkit-transition: all 0.2s ease-in-out;
