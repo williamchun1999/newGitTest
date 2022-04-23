@@ -1,2 +1,2 @@
 # A restaurant website built using HTML, CSS, and Javascript. 
-![Alt text](/relative/path/to/readMePhoto.png?raw=true)
+![Cover Photo](assets/css/images/readMePhoto.png?raw=true);
